@@ -1,0 +1,10 @@
+
+
+PAR USAR O TAILWIND criando pela comunidade -NATIVEWIND
+```
+
+  npm install nativewind
+  npm install tailwindcss -D
+    npx tailwindcss init
+    agr add content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
+ ```

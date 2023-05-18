@@ -7,4 +7,13 @@ PAR USAR O TAILWIND criando pela comunidade -NATIVEWIND
   npm install tailwindcss -D
     npx tailwindcss init
     agr add content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
+
+  fonts:
+    npx expo install @expo-google-fonts/roboto @expo-google-fonts/bai-jamjuree expo-font
+
+  pack para suportar SVG.
+    expo install react-native-svg
+    npm i -D react-native-svg-transformer
+     -> criar arquivo metro.config.js
+     
  ```

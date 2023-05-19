@@ -16,4 +16,16 @@ PAR USAR O TAILWIND criando pela comunidade -NATIVEWIND
     npm i -D react-native-svg-transformer
      -> criar arquivo metro.config.js
      
+  autenticação
+    -> npx expo install expo-auth-session expo-crypto
+
+  limpoar cache, depois de instalar mts coisas;
+    npx expo start --clear
+
+  npm i axios
+
+  npx expo install expo-secure-store //o rnativer nao tem cookie, usamos essa lib para salver
+
+  router:  igual o nextrouter
+    npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
  ```
